@@ -1,0 +1,2 @@
+marioTieneGato = False
+peliculaFavoritaAna = "Gladiador"

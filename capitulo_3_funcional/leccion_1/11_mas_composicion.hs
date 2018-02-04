@@ -1,0 +1,1 @@
+masDos = siguiente.siguiente
