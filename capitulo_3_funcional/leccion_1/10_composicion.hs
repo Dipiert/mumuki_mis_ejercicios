@@ -1,1 +1,0 @@
-tripleDelAnterior = triple.anterior

@@ -1,2 +1,0 @@
-marioTieneGato = False
-peliculaFavoritaAna = "Gladiador"
