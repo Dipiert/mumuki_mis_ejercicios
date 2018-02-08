@@ -1,0 +1,6 @@
+-- https://mumuki.io/exercises/306-fundamentos-primeros-programas-el-orden-de-las-cosas
+
+program {
+  Mover(Este)
+  Mover(Norte)
+}

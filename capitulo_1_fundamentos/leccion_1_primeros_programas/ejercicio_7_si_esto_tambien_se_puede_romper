@@ -1,0 +1,5 @@
+-- https://mumuki.io/exercises/2124-fundamentos-primeros-programas-si-esto-tambien-se-puede-romper
+
+program {
+  Mover(Sur)
+}

@@ -1,0 +1,7 @@
+-- https://mumuki.io/exercises/263-fundamentos-primeros-programas-movimientos-3
+
+program {
+  Mover(Este)
+  Mover(Este)
+  Mover(Sur)
+}

@@ -1,0 +1,7 @@
+-- https://mumuki.io/exercises/262-fundamentos-primeros-programas-movimientos-2
+
+program {
+  Mover(Norte)
+  Mover(Norte)
+  Mover(Norte)
+}
