@@ -1,0 +1,15 @@
+-- https://mumuki.io/exercises/1468-fundamentos-practica-procedimientos-ponerpuntos3
+
+procedure PonerPuntos3(color) {
+  Poner(color)
+  repeat(2) {
+    PonerADistancia3(color, Este)
+  }
+  MoverOeste6()
+}
+
+procedure MoverOeste6() {
+  repeat(6) {
+    Mover(Oeste)
+  }
+}

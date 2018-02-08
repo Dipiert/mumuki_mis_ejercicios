@@ -1,0 +1,11 @@
+-- https://mumuki.io/exercises/308-fundamentos-procedimientos-escribiendo-procedimientos
+
+procedure Poner3Rojas() {
+  Poner(Rojo)
+  Poner(Rojo)
+  Poner(Rojo)
+}
+
+program {
+  Poner3Rojas()
+}

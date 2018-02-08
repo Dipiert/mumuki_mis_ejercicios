@@ -1,0 +1,9 @@
+-- https://mumuki.io/exercises/324-fundamentos-procedimientos-dibujarcuadradodelado3
+
+procedure DibujarCuadradoDeLado3(color) {
+  DibujarLinea3(color)
+  Mover(Norte)
+  DibujarLinea3(color)
+  Mover(Norte)
+  DibujarLinea3(color)
+}

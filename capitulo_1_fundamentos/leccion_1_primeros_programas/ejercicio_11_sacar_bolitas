@@ -1,0 +1,6 @@
+-- https://mumuki.io/exercises/290-fundamentos-primeros-programas-sacar-bolitas
+
+program {
+  Mover(Sur)
+  Sacar(Rojo)
+}

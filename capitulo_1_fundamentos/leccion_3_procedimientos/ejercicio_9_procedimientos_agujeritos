@@ -1,0 +1,12 @@
+-- https://mumuki.io/exercises/322-fundamentos-procedimientos-procedimientos-con-agujeritos
+
+procedure Poner3(color) {
+  Poner(color)
+  Poner(color)
+  Poner(color)
+}
+
+program {
+  Poner3(Negro)
+  Poner3(Rojo)
+}

@@ -1,0 +1,10 @@
+-- https://mumuki.io/exercises/323-fundamentos-procedimientos-dibujarlinea3
+
+procedure DibujarLinea3(color) {
+  Poner(color)
+  Mover(Este)
+  Poner(color)
+  Mover(Este)
+  Poner(color)
+  VolverAtras()
+}

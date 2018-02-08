@@ -1,0 +1,11 @@
+-- https://mumuki.io/exercises/269-fundamentos-primeros-programas-bolitas-3
+
+program {
+  Poner(Rojo)
+  Poner(Rojo)
+  Poner(Rojo)
+  Poner(Rojo)
+  Poner(Negro)
+  Poner(Negro)
+  Poner(Negro)
+}

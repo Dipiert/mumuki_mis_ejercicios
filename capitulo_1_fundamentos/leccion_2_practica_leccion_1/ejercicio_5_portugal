@@ -1,0 +1,15 @@
+-- https://mumuki.io/exercises/289-fundamentos-practica-primeros-programas-portugal
+
+program {
+  Poner(Verde)
+  Mover(Norte)
+  Poner(Verde)
+  Mover(Este)
+  Poner(Rojo)
+  Mover(Sur)
+  Poner(Rojo)
+  Mover(Este)
+  Poner(Rojo)
+  Mover(Norte)
+  Poner(Rojo)
+}

@@ -1,0 +1,9 @@
+-- https://mumuki.io/exercises/309-fundamentos-procedimientos-pensando-en-subtareas
+
+procedure DibujarLineaNegra3() {
+  Poner(Negro)
+  Mover(Este)
+  Poner(Negro)
+  Mover(Este)
+  Poner(Negro)
+}

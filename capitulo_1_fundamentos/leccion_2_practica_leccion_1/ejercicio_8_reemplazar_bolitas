@@ -1,0 +1,15 @@
+-- https://mumuki.io/exercises/291-fundamentos-practica-primeros-programas-reemplazar-bolitas
+
+program {
+  Sacar(Rojo)
+  Poner(Verde)
+  Mover(Norte)
+  Sacar(Rojo)
+  Poner(Verde)
+  Mover(Este)
+  Sacar(Rojo)
+  Poner(Verde)
+  Mover(Sur)
+  Sacar(Rojo)
+  Poner(Verde)
+}

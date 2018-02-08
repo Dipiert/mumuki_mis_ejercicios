@@ -1,0 +1,32 @@
+-- https://mumuki.io/exercises/2258-fundamentos-practica-procedimientos-molino-ascendente
+
+program {
+  Mover(Norte)
+  PonerAspa(Negro, Norte)
+  Mover3(Sur)
+  
+  Mover(Oeste)
+  PonerAspa(Negro, Oeste)
+  Mover3(Este)
+  
+  Mover(Sur)
+  PonerAspa(Negro, Sur)
+  Mover3(Norte)
+  
+  Mover(Este)
+  PonerAspa(Negro, Este)
+  Mover3(Oeste)
+}
+
+procedure PonerAspa(color, direccion) {
+  Poner(color)
+  Mover(direccion)
+  repeat(2) {
+    Poner(color)
+  }
+  Mover(direccion)
+  repeat(3) {
+    Poner(color)
+  }
+  
+}

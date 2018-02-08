@@ -1,0 +1,7 @@
+-- https://mumuki.io/exercises/270-fundamentos-practica-primeros-programas-calentando-motores
+
+program {
+  Poner(Rojo)
+  Mover(Este)
+  Poner(Negro)
+}

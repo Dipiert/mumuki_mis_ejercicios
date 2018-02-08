@@ -1,0 +1,25 @@
+-- https://mumuki.io/exercises/304-fundamentos-procedimientos-las-cosas-por-su-nombre
+
+procedure DibujarCuadradoNegroDeLado3() {
+  Poner(Negro)
+  Mover(Este)
+  Poner(Negro)
+  Mover(Este)
+  Poner(Negro)
+  Mover(Norte)
+  Poner(Negro)
+  Mover(Oeste)
+  Poner(Negro)
+  Mover(Oeste)
+  Poner(Negro)
+  Mover(Norte)
+  Poner(Negro)
+  Mover(Este)
+  Poner(Negro)
+  Mover(Este)
+  Poner(Negro)    
+}
+
+program {
+  DibujarCuadradoNegroDeLado3()   
+}

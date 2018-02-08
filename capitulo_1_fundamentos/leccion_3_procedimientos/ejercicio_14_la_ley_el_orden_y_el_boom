@@ -1,0 +1,5 @@
+-- https://mumuki.io/exercises/2850-fundamentos-procedimientos-la-ley-el-orden-y-el-boom
+
+program {
+  DibujarLinea3(Norte, Azul)
+}

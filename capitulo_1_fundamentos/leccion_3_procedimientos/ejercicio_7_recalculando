@@ -1,0 +1,10 @@
+-- https://mumuki.io/exercises/320-fundamentos-procedimientos-recalculando
+
+procedure DibujarLineaNegra3() {
+  Poner(Negro)
+  Mover(Este)
+  Poner(Negro)
+  Mover(Este)
+  Poner(Negro)
+  VolverAtras()
+}

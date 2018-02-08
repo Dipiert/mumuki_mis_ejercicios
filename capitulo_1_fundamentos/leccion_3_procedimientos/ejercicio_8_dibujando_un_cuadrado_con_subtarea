@@ -1,0 +1,9 @@
+-- https://mumuki.io/exercises/321-fundamentos-procedimientos-dibujando-un-cuadrado-con-subtareas
+
+procedure DibujarCuadradoNegroDeLado3() {
+  DibujarLineaNegra3()
+  Mover(Norte)
+  DibujarLineaNegra3()
+  Mover(Norte)
+  DibujarLineaNegra3()
+}

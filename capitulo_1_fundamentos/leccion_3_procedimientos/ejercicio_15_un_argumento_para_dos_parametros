@@ -1,0 +1,5 @@
+-- https://mumuki.io/exercises/2851-fundamentos-procedimientos-un-argumento-para-dos-parametross
+
+program {
+  DibujarLinea3(Norte, Azul)
+}

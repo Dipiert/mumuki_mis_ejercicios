@@ -1,0 +1,11 @@
+-- https://mumuki.io/exercises/2228-fundamentos-practica-procedimientos-hay-una-luz-en-esa-cruz
+
+program {
+  PonerADistancia3(Azul, Oeste)
+  Mover3(Norte)
+  PonerADistancia3(Negro, Este)
+  Mover3(Este)
+  PonerADistancia3(Rojo, Sur)
+  Mover3(Sur)
+  PonerADistancia3(Verde, Oeste)
+}

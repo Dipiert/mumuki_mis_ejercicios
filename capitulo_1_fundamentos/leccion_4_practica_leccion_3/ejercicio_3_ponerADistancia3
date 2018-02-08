@@ -1,0 +1,12 @@
+-- https://mumuki.io/exercises/1467-fundamentos-practica-procedimientos-poneradistancia3
+
+procedure PonerADistancia3(color, direccion) {
+  Mover3(direccion)
+  Poner(color)
+}
+
+procedure Mover3(direccion) {
+  repeat(3) {
+    Mover(direccion)
+  }
+}

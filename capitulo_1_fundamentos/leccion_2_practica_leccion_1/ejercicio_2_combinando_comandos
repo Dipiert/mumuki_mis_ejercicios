@@ -1,0 +1,9 @@
+-- https://mumuki.io/exercises/287-fundamentos-practica-primeros-programas-combinando-comandos
+
+program {
+  Poner(Rojo)
+  Poner(Rojo)
+  Mover(Este)
+  Poner(Rojo)
+  Poner(Rojo)
+}

@@ -1,0 +1,16 @@
+-- https://mumuki.io/exercises/1465-fundamentos-practica-procedimientos-cuadradomulticolor
+
+procedure PonerCuadradoMulticolor4() {
+  PonerLineaMulticolor4()
+  Mover(Norte)
+  PonerLineaMulticolor4()
+  Mover(Norte)
+  PonerLineaMulticolor4()
+  Mover(Norte)
+  PonerLineaMulticolor4()
+  MoverSur3()
+}
+
+procedure MoverSur3() {
+  repeat(3) { Mover(Sur) }
+}

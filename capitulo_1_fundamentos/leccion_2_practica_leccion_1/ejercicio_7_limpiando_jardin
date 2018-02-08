@@ -1,0 +1,20 @@
+-- https://mumuki.io/exercises/2232-fundamentos-practica-primeros-programas-limpiando-el-jardin
+
+program {
+  Sacar(Verde)
+  Mover(Norte)
+  Sacar(Verde)
+  Mover(Norte)
+  Sacar(Verde)
+  Mover(Este)
+  Sacar(Verde)
+  Mover(Este)
+  Sacar(Verde)
+  Mover(Sur)
+  Sacar(Verde)
+  Mover(Sur)
+  Sacar(Verde)
+  Mover(Oeste)
+  Sacar(Verde)
+  Mover(Oeste)
+}

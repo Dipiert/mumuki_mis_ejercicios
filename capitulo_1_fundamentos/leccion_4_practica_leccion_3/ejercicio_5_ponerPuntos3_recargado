@@ -1,0 +1,15 @@
+-- https://mumuki.io/exercises/2229-fundamentos-practica-procedimientos-ponerpuntos3-recargado
+
+procedure PonerPuntos3Recargado(color){
+  repeat(2) {
+    PonerNVeces(1, color)
+    PonerADistancia3(color, Este)
+  }
+  PonerNVeces(2, color)
+}
+
+procedure PonerNVeces(n, color) {
+  repeat(n) {
+    Poner(color)
+  }
+}

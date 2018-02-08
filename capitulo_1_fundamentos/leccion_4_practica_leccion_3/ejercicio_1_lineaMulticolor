@@ -1,0 +1,25 @@
+-- https://mumuki.io/exercises/2227-fundamentos-practica-procedimientos-lineamulticolor
+
+procedure PonerColores() {
+  Poner(Azul)
+  Poner(Rojo)
+  Poner(Negro)
+  Poner(Verde)
+}
+
+procedure VolverAtras() {
+  Mover(Oeste)
+  Mover(Oeste)
+  Mover(Oeste)
+}
+
+procedure PonerLineaMulticolor4(){
+  PonerColores()
+  Mover(Este)
+  PonerColores()
+  Mover(Este)
+  PonerColores()
+  Mover(Este)
+  PonerColores()
+  VolverAtras()
+}

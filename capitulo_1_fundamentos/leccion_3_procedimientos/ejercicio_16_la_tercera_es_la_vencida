@@ -1,0 +1,9 @@
+-- https://mumuki.io/exercises/2852-fundamentos-procedimientos-la-tercera-es-la-vencida
+
+procedure Triada(color, color2, color3) {
+  Poner(color)
+  Mover(Este)
+  Poner(color2)
+  Mover(Este)
+  Poner(color3)
+}

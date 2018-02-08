@@ -1,0 +1,5 @@
+-- https://mumuki.io/exercises/264-fundamentos-primeros-programas-bolitas
+
+program {
+  Poner(Rojo)
+}

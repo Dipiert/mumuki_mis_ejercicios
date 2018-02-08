@@ -1,0 +1,15 @@
+-- https://mumuki.io/exercises/1469-fundamentos-practica-procedimientos-dibujando-el-arco-iris
+
+program {
+  PonerPuntos3(Azul)
+  Mover(Este)
+  PonerPuntos3(Negro)
+  Mover(Norte)
+  PonerPuntos3(Rojo)
+  Mover(Sur)
+  Mover(Este)
+  PonerPuntos3(Verde)
+  repeat(2) {
+    Mover(Oeste)
+  }
+}

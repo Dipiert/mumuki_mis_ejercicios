@@ -1,0 +1,20 @@
+-- https://mumuki.io/exercises/1471-fundamentos-practica-procedimientos-jardin-de-otono
+
+program {
+  PlantarEsquina(Sur, Oeste, Rojo, Norte, Este, Sur)  
+  PlantarEsquina(Norte, Oeste, Negro, Sur, Este, Norte)
+  PlantarEsquina(Sur, Este, Azul, Norte, Oeste, Sur)
+  PlantarEsquina(Norte, Este, Verde, Oeste, Sur, Este)
+}
+
+procedure PlantarEsquina(borde1, borde2, color, mov1, mov2, mov3) {
+  IrAlBorde(borde1)
+  IrAlBorde(borde2)
+  Poner(color)
+  Mover(mov1)
+  Poner(color)
+  Mover(mov2)
+  Poner(color)
+  Mover(mov3)
+  Poner(color)
+}

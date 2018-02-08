@@ -1,0 +1,5 @@
+-- https://mumuki.io/exercises/2125-fundamentos-primeros-programas-cuando-no-hay-bolitas
+
+program {
+  Sacar(Verde)
+}

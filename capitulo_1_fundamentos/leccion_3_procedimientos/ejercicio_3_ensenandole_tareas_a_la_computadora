@@ -1,0 +1,11 @@
+-- https://mumuki.io/exercises/307-fundamentos-procedimientos-ensenandole-tareas-a-la-computadora
+
+procedure Poner3Verdes() {
+  Poner(Verde)
+  Poner(Verde)
+  Poner(Verde)
+}
+
+program {
+  Poner3Verdes()
+}

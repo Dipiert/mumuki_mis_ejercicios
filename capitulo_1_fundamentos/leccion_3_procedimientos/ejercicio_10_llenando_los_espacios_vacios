@@ -1,0 +1,5 @@
+-- https://mumuki.io/exercises/3287-fundamentos-procedimientos-llenando-los-espacios-vacios
+
+program {
+  Poner3(Verde)
+}
