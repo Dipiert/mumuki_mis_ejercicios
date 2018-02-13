@@ -1,0 +1,8 @@
+// https://mumuki.io/exercises/2751-programacion-imperativa-variables-y-procedimientos-y-los-procedimientos
+
+function versosMartinFierro() {
+    imprimir("Aquí me pongo a cantar");
+    imprimir("Al compás de la vigüela;");
+    imprimir("Que el hombre que lo desvela");
+    imprimir("Una pena extraordinaria");
+}
