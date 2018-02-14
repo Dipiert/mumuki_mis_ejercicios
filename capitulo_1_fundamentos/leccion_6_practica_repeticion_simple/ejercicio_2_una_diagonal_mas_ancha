@@ -1,0 +1,16 @@
+-- https://mumuki.io/exercises/2304-fundamentos-practica-repeticion-simple-una-diagonal-mas-ancha
+
+procedure BandaDiagonal4() {
+  repeat(2) {
+    Diagonal4AzulVolviendo()
+    Mover(Norte)
+  }  
+  Diagonal4AzulVolviendo()
+  MoverSur(2)
+}
+
+procedure MoverSur(n) {
+  repeat(n) {
+    Mover(Sur)
+  }
+}

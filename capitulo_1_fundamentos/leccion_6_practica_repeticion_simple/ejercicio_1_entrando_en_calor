@@ -1,0 +1,9 @@
+-- https://mumuki.io/exercises/2303-fundamentos-practica-repeticion-simple-entrando-en-calor-volviendo
+
+procedure Diagonal4AzulVolviendo() {
+  Diagonal4Azul();
+  repeat (4) {
+    Mover(Oeste);
+    Mover(Sur);
+  }  
+}
