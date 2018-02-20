@@ -1,0 +1,7 @@
+-- https://mumuki.io/exercises/1402-fundamentos-alternativa-condicional-eliminando-la-bolita-roja
+
+procedure SacarRojoConMiedo() {
+  if (hayBolitas(Rojo)) {
+    Sacar(Rojo)
+  } 
+}

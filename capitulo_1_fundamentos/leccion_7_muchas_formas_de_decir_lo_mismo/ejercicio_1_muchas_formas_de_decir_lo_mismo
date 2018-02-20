@@ -1,0 +1,5 @@
+-- https://mumuki.io/exercises/2408-fundamentos-expresiones-muchas-formas-de-decir-lo-mismo
+
+program {
+  PonerN(4 + 1, Negro)
+}

@@ -1,0 +1,14 @@
+-- https://mumuki.io/exercises/2307-fundamentos-practica-repeticion-simple-los-numeros-del-reloj
+
+procedure DibujarReloj(radio) {
+  RelojColocarN(radio, 12, Norte)
+  RelojColocarN(radio, 9, Oeste)
+  RelojColocarN(radio, 3, Este)
+  RelojColocarN(radio, 6, Sur)
+}
+
+procedure RelojColocarN(radio, n, dir) {  
+  MoverN(radio, dir)
+  PonerN(n, Rojo)
+  MoverN(radio, opuesto(dir))
+}

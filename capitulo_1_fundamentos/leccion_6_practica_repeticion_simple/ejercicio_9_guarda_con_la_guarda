@@ -1,0 +1,15 @@
+-- https://mumuki.io/exercises/2309-fundamentos-practica-repeticion-simple-guarda-con-la-guarda
+
+procedure GuardaDe5() {
+  repeat(4) {
+    ColocarGuarda()
+    Mover(Este)
+  }
+  ColocarGuarda()
+}
+
+procedure ColocarGuarda() {
+    PonerN(1, Verde)
+    PonerN(5, Negro)
+    PonerN(9, Rojo)
+}

@@ -1,0 +1,21 @@
+-- https://mumuki.io/exercises/2310-fundamentos-practica-repeticion-simple-una-guarda-en-l
+
+procedure GuardaEnL() {
+  PonerFila(Este, Oeste, 2)
+  PonerColumna()
+}
+
+procedure PonerColumna() {
+  Mover(Norte)
+  PonerFila(Norte, Sur, 1)
+  Mover(Sur)
+}
+
+procedure PonerFila(dir, dirRetorno, long) {
+  repeat(long) {
+    PonerAzulejo()
+    Mover(dir)
+  } 
+  PonerAzulejo()
+  MoverN(long, dirRetorno)
+}

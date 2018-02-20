@@ -1,0 +1,5 @@
+-- https://mumuki.io/exercises/2409-fundamentos-expresiones-la-suma-de-las-partes
+
+procedure PonerSuma(x, y) {
+  PonerN(x + y, Rojo)
+}

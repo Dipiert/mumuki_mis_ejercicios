@@ -1,0 +1,5 @@
+-- https://mumuki.io/exercises/2421-fundamentos-expresiones-sacando-bolitas
+
+procedure SacarTodas(color) {
+  SacarN(nroBolitas(color), color)
+}

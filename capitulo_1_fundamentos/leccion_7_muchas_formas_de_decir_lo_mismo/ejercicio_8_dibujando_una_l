@@ -1,0 +1,6 @@
+-- https://mumuki.io/exercises/2418-fundamentos-expresiones-dibujando-una-l
+
+procedure Ele(direccion) {
+  Linea(direccion, Azul, 3)
+  Linea(siguiente(direccion), Azul, 3)
+}

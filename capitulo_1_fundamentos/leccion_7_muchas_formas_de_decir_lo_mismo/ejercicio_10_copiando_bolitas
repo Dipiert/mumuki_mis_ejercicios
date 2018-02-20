@@ -1,0 +1,5 @@
+-- https://mumuki.io/exercises/2420-fundamentos-expresiones-copiando-bolitas
+
+procedure CopiarVerdesEnRojas() {
+  PonerN(nroBolitas(Verde), Rojo)  
+}

@@ -1,0 +1,9 @@
+-- https://mumuki.io/exercises/2306-fundamentos-practica-repeticion-simple-escribir-cualquier-fecha
+
+procedure Fecha(dia, mes, anio) {
+  PonerN(dia, Azul)
+  Mover(Este)
+  PonerN(mes, Verde)
+  Mover(Este)
+  PonerN(anio, Negro)
+}

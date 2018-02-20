@@ -1,0 +1,5 @@
+-- https://mumuki.io/exercises/2410-fundamentos-expresiones-que-se-hace-antes
+
+procedure ContarGente(micros, autos, bicicletas) {
+  PonerN(micros * 40 + autos * 4 + bicicletas, Verde)
+}

@@ -1,0 +1,9 @@
+-- https://mumuki.io/exercises/1403-fundamentos-alternativa-condicional-un-ejemplo-medio-rebuscado
+
+procedure CompletarCelda() {
+  if (hayBolitas(Negro)) {
+    Poner(Rojo)
+    Poner(Azul)
+    Poner(Verde)
+  }
+}

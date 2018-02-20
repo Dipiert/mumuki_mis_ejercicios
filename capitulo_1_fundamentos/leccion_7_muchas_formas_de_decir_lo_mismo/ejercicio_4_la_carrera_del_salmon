@@ -1,0 +1,5 @@
+-- https://mumuki.io/exercises/2414-fundamentos-expresiones-la-carrera-del-salmon
+
+procedure MoverComoSalmon(direccion) {
+  Mover(opuesto(direccion))
+}

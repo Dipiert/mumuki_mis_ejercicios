@@ -1,0 +1,13 @@
+-- https://mumuki.io/exercises/2419-fundamentos-expresiones-siga-la-flecha
+
+procedure Flecha(direccion) {
+  PonerAl(direccion, Rojo)
+  PonerAl(siguiente(direccion), Rojo)
+  PonerAl(previo(direccion), Rojo)  
+}
+
+procedure PonerAl(direccion, color) {
+  Mover(direccion)
+  Poner(color)
+  Mover(opuesto(direccion))
+}

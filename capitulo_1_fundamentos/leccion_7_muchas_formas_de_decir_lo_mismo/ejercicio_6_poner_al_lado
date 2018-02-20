@@ -1,0 +1,7 @@
+-- https://mumuki.io/exercises/2416-fundamentos-expresiones-poner-al-lado
+
+procedure PonerAl(direccion, color) {
+  Mover(direccion)
+  Poner(color)
+  Mover(opuesto(direccion))
+}

@@ -1,0 +1,7 @@
+-- https://mumuki.io/exercises/2296-fundamentos-practica-repeticion-simple-pongamos-todo-lo-que-queramos
+
+procedure PonerN(cantidad, color) {
+  repeat(cantidad) {
+    Poner(color)
+  }
+}

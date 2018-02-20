@@ -1,0 +1,7 @@
+-- https://mumuki.io/exercises/2297-fundamentos-practica-repeticion-simple-movamos-todo-lo-que-queramos
+
+procedure MoverN(cantidad, direccion) {
+  repeat(cantidad) {
+    Mover(direccion)
+  }
+}

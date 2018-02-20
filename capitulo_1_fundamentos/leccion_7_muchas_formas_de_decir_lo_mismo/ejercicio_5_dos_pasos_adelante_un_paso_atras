@@ -1,0 +1,5 @@
+-- https://mumuki.io/exercises/2413-fundamentos-expresiones-dos-pasos-adelante-un-paso-atras
+
+procedure CaminarDesconfiado(pasos) {
+  MoverN(pasos div 2, Este)
+}
