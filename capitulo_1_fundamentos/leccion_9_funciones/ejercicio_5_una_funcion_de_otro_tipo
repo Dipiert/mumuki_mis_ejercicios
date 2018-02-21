@@ -1,0 +1,5 @@
+-- https://mumuki.io/exercises/2426-fundamentos-funciones-una-funcion-de-otro-tipo
+
+function rojoEsDominante() {
+  return (nroBolitas(Rojo) > todasMenos(Rojo)) 
+}

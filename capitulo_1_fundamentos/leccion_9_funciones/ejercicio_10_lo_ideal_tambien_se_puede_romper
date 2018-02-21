@@ -1,0 +1,6 @@
+-- https://mumuki.io/exercises/2459-fundamentos-funciones-lo-ideal-tambien-se-puede-romper
+
+function hayBolitasAl(direccion, color) {
+  Mover(direccion)
+  return (hayBolitas(color))
+}

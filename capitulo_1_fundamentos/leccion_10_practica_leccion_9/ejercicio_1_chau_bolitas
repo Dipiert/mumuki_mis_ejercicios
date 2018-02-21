@@ -1,0 +1,9 @@
+-- https://mumuki.io/exercises/2343-fundamentos-practica-igualmente-conectados-chau-bolitas
+
+function colorEstudiantes() {
+  return (Azul);
+}
+
+function cantidadEstudiantes() {
+  return (nroBolitas(colorEstudiantes()));
+}

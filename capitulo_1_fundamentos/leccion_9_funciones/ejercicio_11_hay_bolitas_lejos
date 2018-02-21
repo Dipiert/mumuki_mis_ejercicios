@@ -1,0 +1,6 @@
+-- https://mumuki.io/exercises/2460-fundamentos-funciones-hay-bolitas-lejos
+
+function hayBolitasLejosAl(direccion, color, distancia) {
+  MoverN(distancia, direccion)
+  return (hayBolitas(color))
+}

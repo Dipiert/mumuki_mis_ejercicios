@@ -1,0 +1,7 @@
+-- https://mumuki.io/exercises/1439-fundamentos-alternativa-condicional-y-solo-sirve-para-ver-si-hay-bolitas
+
+program {
+  if (puedeMover(Este)) {
+    Mover(Este)
+  }
+}

@@ -1,0 +1,11 @@
+-- https://mumuki.io/exercises/1446-fundamentos-alternativa-condicional-un-tablero-de-luces
+
+procedure PrenderOApagarLuz() {
+  if (hayBolitas(Verde))  {
+    Sacar(Verde)
+    Poner(Negro)
+  } else {
+    Sacar(Negro)
+    Poner(Verde)
+  }
+}

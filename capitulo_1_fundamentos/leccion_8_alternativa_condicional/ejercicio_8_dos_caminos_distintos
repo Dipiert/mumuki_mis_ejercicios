@@ -1,0 +1,9 @@
+-- https://mumuki.io/exercises/1445-fundamentos-alternativa-condicional-dos-caminos-distintos
+
+procedure MoverComoSea() {
+    if (puedeMover(Oeste)) {
+        Mover(Oeste)
+    } else {
+        Mover(Norte)
+    }
+}

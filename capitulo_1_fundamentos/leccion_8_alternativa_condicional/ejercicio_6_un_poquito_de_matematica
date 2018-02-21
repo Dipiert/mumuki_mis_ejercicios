@@ -1,0 +1,7 @@
+-- https://mumuki.io/exercises/1443-fundamentos-alternativa-condicional-un-poquito-de-matematica
+
+program {
+  if (nroBolitas(Negro) < 5) {
+    Poner(Negro)
+  }
+}

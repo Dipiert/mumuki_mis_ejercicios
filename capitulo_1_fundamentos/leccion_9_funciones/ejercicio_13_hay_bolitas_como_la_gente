@@ -1,0 +1,6 @@
+-- https://mumuki.io/exercises/2462-fundamentos-funciones-hay-bolitas-como-la-gente
+
+function hayTableroYBolitasAl(direccion, color) {
+  return (puedeMover(direccion) &&                            
+  hayBolitasAl(direccion, color));
+}

@@ -1,0 +1,6 @@
+-- https://mumuki.io/exercises/2458-fundamentos-funciones-las-companeras-ideales
+
+function hayBolitasAl(direccion, color) {
+  Mover(direccion)
+  return (hayBolitas(color))
+}

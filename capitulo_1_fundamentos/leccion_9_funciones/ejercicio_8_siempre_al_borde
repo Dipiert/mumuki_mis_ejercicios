@@ -1,0 +1,7 @@
+-- https://mumuki.io/exercises/2437-fundamentos-funciones-siempre-al-borde
+
+function estoyEnUnBorde() {
+  return (not puedeMover(Norte) || not puedeMover(Sur)
+         || not puedeMover(Oeste) || not puedeMover(Este)
+         )
+}

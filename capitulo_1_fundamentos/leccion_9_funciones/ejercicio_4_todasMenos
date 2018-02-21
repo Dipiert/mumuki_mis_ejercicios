@@ -1,0 +1,5 @@
+-- https://mumuki.io/exercises/2425-fundamentos-funciones-todasmenos
+
+function todasMenos(color) {
+  return (nroBolitasTotal() - nroBolitas(color));
+}

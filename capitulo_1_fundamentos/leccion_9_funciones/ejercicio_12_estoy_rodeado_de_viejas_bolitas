@@ -1,0 +1,9 @@
+-- https://mumuki.io/exercises/2461-fundamentos-funciones-estoy-rodeado-de-viejas-bolitas
+
+function estoyRodeadoDe(color) {
+  return (hayBolitasAl(Norte, color)
+          && hayBolitasAl(Sur, color)
+          && hayBolitasAl(Oeste, color)
+          && hayBolitasAl(Este, color)
+         )
+}

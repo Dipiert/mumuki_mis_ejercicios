@@ -1,0 +1,7 @@
+-- https://mumuki.io/exercises/1444-fundamentos-alternativa-condicional-como-decirle-que-no
+
+procedure AsegurarUnaBolitaVerde() {
+  if (not hayBolitas(Verde)) {
+    Poner(Verde)
+  }
+}

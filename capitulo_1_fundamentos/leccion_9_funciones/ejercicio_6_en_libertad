@@ -1,0 +1,5 @@
+-- https://mumuki.io/exercises/2427-fundamentos-funciones-en-libertad
+
+function esLibreCostados() {
+  return (puedeMover(Este) && puedeMover(Oeste))
+}

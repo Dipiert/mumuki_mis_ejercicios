@@ -1,0 +1,5 @@
+-- https://mumuki.io/exercises/2463-fundamentos-funciones-sin-limites
+
+function estoyLimitada() {
+  return (estoyEnUnBorde() || estoyRodeadoDe(Rojo))
+}
